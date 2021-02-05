@@ -1,0 +1,20 @@
+.lead__image-map {
+    width: 937px;
+    max-height: 263px;
+    margin: 90px 23px 262px;
+  }
+
+@media screen and (max-width:1024px) {
+  .lead__image-map {
+    width: 90%;
+    margin: 85px auto 247px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__image-map {
+    width: 305px;
+    height: 86px;
+    margin: 30px auto 85px;
+  }
+}
