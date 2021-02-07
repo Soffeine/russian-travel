@@ -1,5 +1,5 @@
 .place__paragraph {
-  grid-area: first-paragraph;
+  grid-area: article;
   align-self: start;
   padding: 0;
   margin: 0;
@@ -9,19 +9,23 @@
 }
   
 .place__paragraph:nth-of-type(2) {
-  grid-area: second-paragraph;
-  margin-top: -7px;
+  margin-top: 26px;
 }
-
+ 
 @media screen and (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
+  }
+
+  .place__paragraph:nth-of-type(2) {
+    margin-top: 25px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__paragraph{
-    width: 100%;
+    width: 90%;
     font-size: 16px;
+    margin: 0 auto;
   }
 }

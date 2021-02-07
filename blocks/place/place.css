@@ -5,8 +5,7 @@
   grid-template-rows: repeat(auto-fit, 1fr);
   grid-template-areas:
   "title website"
-  "image first-paragraph"
-  "image second-paragraph";
+  "image article";
   gap: 48px 40px;
   justify-content: start;
 }
@@ -33,14 +32,18 @@
 @media screen and (max-width: 320px) {
   .place {
     width: 100%;
+    margin-bottom: 64px;
     grid-template-columns: repeat(auto-fit, 1fr);
     grid-template-rows: repeat(auto-fit, 1fr);
     grid-template-areas:
     "title"
     "website"
     "image"
-    "first-paragraph"
-    "second-paragraph";
+    "article";
     gap: 32px;
+  }
+
+  .place:last-of-type {
+    margin-bottom: 0;
   }
 }

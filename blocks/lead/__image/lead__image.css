@@ -1,9 +1,5 @@
 .lead__image {
   max-width: 100%;
-  margin: 0 148px;
-  background-image: url(../../../images/lead-polka.jpg);
-  background-size: cover;
-  display: flex;
 }
 
 @media screen and (max-width:1024px) {

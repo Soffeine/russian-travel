@@ -8,6 +8,12 @@
   text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+  .cover__subtitle {
+  width: 47%;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .cover__subtitle {
     width: 90%;
