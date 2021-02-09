@@ -1,27 +1,23 @@
 .place__image {
   grid-area: image;
   margin: 0;
-  max-width: 460px;
-  max-height: 460px;
+  max-width: 36vw;
 }
 
 @media screen and (max-width: 1024px) {
   .place__image {
-    width: 440px;
-    height: 440px;
+    width: 42vw;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__image {
-    width: 340px;
-    height: 340px;
+    width: 44vw;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__image {
     width: 99%;
-    height: 320px;
   }
 }
