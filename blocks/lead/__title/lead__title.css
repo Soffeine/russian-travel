@@ -1,5 +1,5 @@
 .lead__title {
-  min-width: 55vw;
+  width: 55vw;
   margin: 0 auto 32px;
   font-size: 96px;
   font-weight: 900;
@@ -9,7 +9,7 @@
 
 @media screen and (max-width:1024px) {
   .lead__title {
-    min-width: 70vw;
+    width: 70vw;
   }
 }
 
@@ -21,11 +21,12 @@
 
 @media screen and (max-width: 768px) {
   .lead__title {
-    max-width: 94vw;
+    font-size: 96px;
+    width: 94vw;
   }
 }
 
-@media screen and (max-width: 615px) {
+@media screen and (max-width: 696px) {
   .lead__title {
     font-size: 60px;
   }
@@ -33,6 +34,7 @@
 
 @media screen and (max-width: 505px) {
   .lead__title {
+    width: 100%;
     font-size: 40px;
   }
 }
