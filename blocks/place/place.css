@@ -29,7 +29,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .place {
     width: 100%;
     margin-bottom: 64px;
@@ -40,7 +40,7 @@
     "website"
     "image"
     "article";
-    gap: 32px;
+    row-gap: 32px;
   }
 
   .place:last-of-type {
