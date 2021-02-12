@@ -1,0 +1,35 @@
+.place__text {
+  width: 36vw;
+  grid-area: article;
+}
+
+@media screen and (max-width: 1152px) {
+  .place__text {
+    width: 37vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .place__text {
+    width: 44vw;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .place__text {
+    width: 46vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__text {
+    width: 45vw;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .place__text {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

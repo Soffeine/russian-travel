@@ -4,9 +4,21 @@
   width: 36vw;
 }
 
+@media screen and (max-width: 1152px) {
+  .place__image {
+    width: 34vw;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .place__image {
     width: 42vw;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .place__image {
+    width: 40vw;
   }
 }
 

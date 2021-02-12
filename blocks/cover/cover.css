@@ -3,45 +3,25 @@
   background-size: cover;
   background-position: center;
   width: 92vw;
-  min-height: 720px;
   margin: 0 auto;
   position: relative;
-}
-  
-.cover::before {
-  display: block;
-  content:"";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-color: rgba(42, 44, 47, 1);
-  top: 0;
-  left: 0;
-  opacity: 0.3;
-}
-  
-.cover:hover::before {
-  opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
     width: 100%;
-    min-height: 640px;
     margin-bottom: 92px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    min-height: 480px;
     margin-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover {
-    min-height: 200px;
     margin-bottom: 0;
   }
 }
