@@ -1,5 +1,5 @@
 .lead {
-  width: 76vw;
+  max-width: 984px;
   margin: 0 auto 114px;
   display: flex;
   flex-direction: column;

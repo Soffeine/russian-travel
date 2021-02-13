@@ -2,7 +2,7 @@
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
   background-position: center;
-  width: 92vw;
+  max-width: 1184px;
   margin: 0 auto;
   position: relative;
 }

@@ -1,5 +1,5 @@
 .cover__title {
-  width: 43vw;
+  max-width: 560px;
   color: rgba(255, 255, 255, 1);
   opacity: 1;
   font-weight: 900;

@@ -1,5 +1,5 @@
 .place__text {
-  width: 36vw;
+  max-width: 484px;
   grid-area: article;
 }
 
